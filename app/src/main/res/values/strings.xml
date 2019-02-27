@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">PetUs</string>
+    <string name="title_activity_sign_up">회원가입</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bot">bot</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--Strings related to action bar-->
+    <string name="upload">업로드</string>
+    <string name="search">검색</string>
+    <string name="user">유저</string>
+    <string name="option">옵션</string>
+    <string name="map">카페찾기</string>
+
+    <!--Strings related to login and sign up-->
+    <string name="hint_email">이메일 아이디</string>
+    <string name="duplication_check">중복 확인</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="show_password">비밀번호 보기</string>
+    <string name="hint_name">닉네임</string>
+    <string name="action_register">가입하기</string>
+    <string name="forgot_password">비밀번호를 잃어버리셨나요?</string>
+    <string name="action_login">로그인</string>
+    <string name="action_logout">로그아웃</string>
+    <string name="not_a_member">회원이 아니세요?</string>
+    <string name="error_field_required">필수 입력란</string>
+    <string name="error_invalid_email">유효하지 않은 이메일 형식입니다.</string>
+
+    <!--네이버 api 관련 내용-->
+    <string name="client_id">ZGQ3ahIIuQSYFnY86mUh</string>
+
+    <!--Strings related to upload-->
+    <!--<string name="cancel">녹화 취소</string>-->
+    <!--<string name="msg_cancel">취소할 경우 녹화중인 동영상이 사라집니다. 계속 하시겠습니까?</string>-->
+    <!--<string name="video_path">경로:</string>-->
+    <string name="title">제목</string>
+    <string name="contents">내용:</string>
+    <string name="tag">태그:</string>
+    <string name="desc">설명</string>
+    <!--<string name="category">카테고리:</string>-->
+    <string name="save">저장하기</string>
+
+    <!--Strings related to chat-->
+    <string name="send">보내기</string>
+
+</resources>

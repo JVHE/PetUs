@@ -1,0 +1,82 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.jvhe.petus"
+        minSdkVersion 23
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    // 글라이드
+    implementation 'com.github.bumptech.glide:glide:4.4.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.4.0'
+
+    // 글라이드 이미지 transformations
+    implementation 'jp.wasabeef:glide-transformations:3.3.0'
+    // If you want to use the GPU Filters
+    implementation 'jp.co.cyberagent.android.gpuimage:gpuimage-library:1.4.1'
+
+//    // 비디오 필터
+//    implementation 'cn.co.willow.android.ultimate.gpuimage:library:1.0.3'
+    // 비디오 필터
+//    implementation 'com.github.indexOS.media-for-mobile:android:master-SNAPSHOT'
+    // 구글 맵 api
+    implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.google.android.gms:play-services-location:15.0.1'
+    implementation 'noman.placesapi:placesAPI:1.1.3'
+    // firebase 연동용. 현재 구글 로그인 목적을 위해 추가했다.
+    implementation 'com.google.firebase:firebase-auth:16.0.3'
+    implementation 'com.google.android.gms:play-services-auth:16.0.0'
+    // 클러스터링을 하기 위해 추가햇다.
+    implementation 'com.google.maps.android:android-maps-utils:0.5+'
+    // 네이버 지도 api 사용하기 위해 추가
+    implementation 'com.naver.maps.open:naver-map-api:2.1.2@aar'
+    // 멀티미디어 피커
+    implementation 'com.erikagtierrez.multiple_media_picker:multiple-media-picker:1.0.5'
+    // 이미지 확대 축소 쉽게
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+    implementation project(':library')
+
+    // 파일 읽기
+    implementation 'commons-io:commons-io:2.5'
+
+    // 이미지 크롭
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.7.+'
+
+//    // FCM 메세지
+//    implementation 'com.google.firebase:firebase-messaging:12.0.1'
+//    implementation 'com.google.firebase:firebase-core:16.0.4'
+    // FCM 푸시알림용
+    implementation 'com.google.firebase:firebase-messaging:17.0.0'
+    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-storage:16.0.1'
+    implementation 'com.firebaseui:firebase-ui-storage:3.2.2'
+    implementation 'com.google.firebase:firebase-database:16.0.1'
+
+}
+apply plugin: 'com.google.gms.google-services'
