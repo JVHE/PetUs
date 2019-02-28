@@ -4,7 +4,6 @@
 ## 소개
 <img src="gifs/post_upload.gif" height="300"> <img src="gifs/cafe_list.gif" height="300"> <img src="gifs/chat.gif" height="300"><br/>
 PetUs는 반려동물 컨텐츠 공유를 위한 SNS 어플리케이션입니다.<br/>
-동영상 링크: (추가 예정)
 
 ## 주요 기능
 - 회원가입, 로그인, google 로그인
