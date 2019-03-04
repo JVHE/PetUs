@@ -4,6 +4,7 @@
 ## 소개
 
 PetUs는 반려동물 컨텐츠 공유를 위한 SNS 어플리케이션입니다.<br/>
+동영상 링크: https://youtu.be/XCeTM8Ssy3A
 
 ## 주요 기능
 - 회원가입, 로그인, google 로그인
